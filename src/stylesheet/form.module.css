@@ -1,0 +1,11 @@
+.SearchInput {
+    width:100%;
+    border-radius: 5px;
+    border:1px solid #ddd;
+    padding:10px 10px 10px 50px;
+    background:url('../assets/search.svg') no-repeat 10px;
+    
+    -webkit-box-shadow:1px 0px 7px 0px rgba(50, 50, 50, 0.15);
+    -moz-box-shadow:   1px 0px 7px 0px rgba(50, 50, 50, 0.15);
+    box-shadow:        1px 0px 7px 0px rgba(50, 50, 50, 0.15);
+}

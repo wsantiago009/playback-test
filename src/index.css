@@ -1,0 +1,95 @@
+*, *:focus, *:hover, *:active {
+  outline: none!important;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ContentBorder {
+  background:#fff;
+  border: 1px solid #D2CBF3;
+}
+
+#Menu > div {
+  border-right: 1px solid transparent;
+}
+
+#Menu > div:hover,
+#Menu > div:active,
+#Menu > div:focus {
+  border-color: #EA1979;
+}
+
+.SubMenu {
+  padding: 10px 20px;
+  list-style: none;
+}
+
+.SubMenu li {
+  padding:10px;
+  color:#929CA1;
+  list-style: none;
+}
+
+.tooltip.show {
+  opacity:1!important;
+}
+
+.tooltip-inner {
+  min-width:250px;
+  text-align: left!important;
+  background-color:#fff!important;
+  margin:0!important;
+  padding:0!important;
+  
+  
+  -webkit-box-shadow:1px 0px 7px 0px rgba(50, 50, 50, 0.15);
+  -moz-box-shadow:   1px 0px 7px 0px rgba(50, 50, 50, 0.15);
+  box-shadow:        1px 0px 7px 0px rgba(50, 50, 50, 0.15);
+}
+
+.tooltip-inner li:not(:last-child) {
+  border-bottom:1px solid #ddd;
+}
+
+.tooltip-inner li a {
+  color:#929CA1;
+  text-decoration: none;
+  font-weight:500;
+}
+
+.tooltip-inner li a:hover {
+  color:#EA1979;
+}
+
+.bs-tooltip-right .arrow::before, .bs-tooltip-auto[x-placement^="right"] .arrow::before {
+  border-width: 10px 15px 10px 0!important;
+  border-right-color:#fff!important;
+}
+
+.modal-content {
+  padding:10px 20px 20px;
+}
+
+.modal-header {
+  border:none!important;
+}
+
+.modal-header .close {
+  padding: 9px 15px!important;
+}
+
+.modal-header .close span {
+  font-size:35px;
+}
